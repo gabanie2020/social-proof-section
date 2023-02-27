@@ -1,0 +1,171 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.body{
+    font-size: 13px;
+}
+.section{
+    background-image: url(/imgs/bg-pattern-bottom-desktop.svg);
+    min-height: 80px;
+    background-repeat: no-repeat;
+}
+.row{
+    max-width: 100%;
+    margin: 0 auto 60px auto
+}
+.first-Layer{
+    position: relative;
+    display: flex;
+    top: 40px;
+    justify-content: space-between;
+}
+.text-one{
+    flex-basis: 45%;
+}
+.text-one-h{
+    color:  hsl(300, 43%, 22%);
+    font-weight: 600;
+    font-size: 35px;
+}
+.text-one-p{
+    color: hsl(303, 10%, 53%);
+    line-height: 25px;
+    font-size: 15px;
+}
+.bolu{
+    position: relative;
+    display: flex;
+    background-color:  hsl(300, 24%, 96%);
+    right: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin: 10px;
+    
+}
+
+.bolu-p{
+    color:  hsl(303, 10%, 53%);
+    line-height: 20px;
+    right: 50px;
+}
+.blou-2{
+    right: 50px;
+}
+.bolu-3{
+    right: 50px;
+}
+.next-layer{
+    display: flex;
+    position: relative;
+    top: 50px;
+    bottom: 50px;
+}
+.king{
+    background-color: hsl(300, 43%, 22%);
+    min-width: 50px;
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.kings{
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+}
+.king-p{
+    color:  hsl(300, 24%, 96%);
+    font-size: 13px;
+}
+.kings-p{
+    color:  hsl(333, 80%, 67%);
+    font-size: 12px;
+}
+.king-info{
+    display: flex;
+    position: relative;
+    border: 5px;
+    padding: 5px;
+}
+.imga{
+    border-radius: 5px;
+}
+.queen{
+    background-color: hsl(300, 43%, 22%);
+    margin: 20px;
+    min-width: 50px;
+    border-radius: 40px;
+    padding: 30px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    border: 40px;
+}
+.next-layer{
+    border: 40px;
+    padding: 20px;
+}
+.queen-info{
+    position: relative;
+    display: flex;
+}
+.imge{
+    display: contents;
+    border-radius: 50%; 
+}
+.queen-info-2{
+    position: relative;
+    font-size: 15px;
+}
+.queens{
+    color:hsl(0, 0%, 100%); 
+    font-size: 12px;
+}
+.queeny{
+    color: hsl(333, 80%, 67%);
+    font-size: 12px;
+}
+.queen-content{
+    color:hsl(300, 24%, 96%);
+    font-size: 13px;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.prince{
+    background-color: hsl(300, 43%, 22%);
+    margin: 10px;
+    border-radius: 30px;
+    min-width: 50px;
+    padding: 20px;
+    margin-top: 70px;
+    margin-bottom: 10px;
+
+}
+.prince-info{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.prince-info-2{
+    position: relative;
+    line-height: 19px;
+    margin-top: 3px;
+}
+.toby{
+    color:  hsl(300, 24%, 96%);
+    font-size: 13px;
+}
+.job{
+    color: hsl(333, 80%, 67%);
+    font-size: 13px;
+}
+.prince-content{
+    align-items: center;
+    color: hsl(300, 24%, 96%);
+    font-size: 13px;
+}
